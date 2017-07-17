@@ -8,7 +8,11 @@ body  {
 }
 
 header  {
-  
+  display: flex;
+  height: 3rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .heading {
