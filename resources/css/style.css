@@ -4,7 +4,7 @@ html  {
 }
 
 body  {
-
+  background-color: rgba(83, 83, 156, 0.32);
 }
 
 header  {
@@ -21,7 +21,7 @@ header  {
 .Header-left {
   font-size: 2rem;
   font-family: 'Righteous', cursive;
-  color: brown;
+  color: #741818;
   width: 100% ;
   display: flex;
   justify-content: flex-start ;
