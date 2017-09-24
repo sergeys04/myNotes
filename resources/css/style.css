@@ -8,14 +8,25 @@ body  {
 }
 
 header  {
-  display: flex;
-  height: 3rem;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-items: stretch;
+  position: relative;
+  z-index: 200; 
 }
 
-.heading {
+.Header {
+  height: 3rem;
+  background-color: black;
+  border-bottom: 0.1rem solid grey;
+}
+
+.Header-left {
   font-size: 2rem;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Righteous', cursive;
+  color: brown;
+  width: 100% ;
+  display: flex;
+  justify-content: flex-start ;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-direction: row;
+  padding: 0.25rem;
 }
