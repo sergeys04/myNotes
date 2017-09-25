@@ -4,7 +4,7 @@ html  {
 }
 
 body  {
-  background-color: rgba(192, 79, 26, 0.86);
+   
 }
 
 header  {
@@ -14,8 +14,7 @@ header  {
 
 .Header {
   height: 3rem;
-  background-color: black;
-  border-bottom: 0.1rem solid grey;
+  background: linear-gradient(-90deg, black, grey);
 }
 
 .Header-left {
